@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5", // for the browsers to understand
+        "module": "commonjs",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "types": [
+        "jquery"
+    ]
+}
