@@ -1,6 +1,7 @@
 const path = require('path'),
 webpack = require('webpack'),
-HtmlWebpackPlugin = require('html-webpack-plugin');
+HtmlWebpackPlugin = require('html-webpack-plugin'),
+ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = function makeWebpackConfig() {
 
@@ -32,7 +33,7 @@ module.exports = function makeWebpackConfig() {
             },
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+               use: ['to-string-loader', 'style-loader', 'css-loader']
             },
             { test: /\.html$/, loader: 'raw-loader' },
             { test: /\.(png|woff|woff2|svg|gif)$/, use: 'url-loader?limit=100000' }, 
