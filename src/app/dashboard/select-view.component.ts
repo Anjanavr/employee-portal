@@ -4,4 +4,9 @@ import { Component } from '@angular/core';
   selector: 'select-view',
   templateUrl: './select-view.component.html'
 })
-export class SelectViewComponent { }
+export class SelectViewComponent {
+  filterDetails = [
+    'Employees',
+    'Projects'
+  ]
+}

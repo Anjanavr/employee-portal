@@ -5,7 +5,7 @@ app-login {
   align-items: center;
 }
 
-section {
+.login {
   background-color: #fff;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
@@ -43,4 +43,5 @@ button {
   border: 1px solid #303f9f;
   padding: 8px 6px;
   border-radius: 3px;
+  margin-top: 7px;
 }

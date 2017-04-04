@@ -1,8 +1,5 @@
-<select>
-  <option>
-    <input type="checkbox" name="">Employees
+<select [(ngModel)]="selectedView">
+  <option *ngFor="let menuItem of filterDetails" [ngValue]="menuItem">
+    <input type="checkbox"> {{ menuItem }}
   </option>
-  <option>
-    <input type="checkbox" name="">Projects
-  </option>  
 </select>

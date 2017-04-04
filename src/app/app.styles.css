@@ -7,6 +7,14 @@ body {
   margin: 0;
 }
 
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none; 
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -15,6 +23,11 @@ nav {
 
 nav li {
   display: inline-block;
+}
+
+nav li:first-child {
+  border-right: 1px solid #fff;
+  padding-right: 8px;
 }
 
 app-root {
@@ -45,7 +58,11 @@ footer {
 
 @media (min-width: 768px) {
   header, footer {
-    padding-right: 4%;
-    padding-left: 4%;
+    padding-right: 25px;
+    padding-left: 25px;
   }
+}
+
+.navigation {
+  cursor: pointer;
 }

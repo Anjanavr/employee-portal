@@ -4,8 +4,8 @@
       {{ title }}
     </h1>
     <ul>
-      <li> Customer </li>
-      <li> Logout </li>
+      <li> Hi {{ loggedInUser.email }} </li>
+      <li class="navigation" (click)="signOut()"> Sign out </li>
     </ul>
   </nav>  
 </header>
