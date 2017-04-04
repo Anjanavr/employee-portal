@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+}
+
+app-root {
+  background-color: #c5cae9;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+h2 {
+  color: #212121;
+}
+
+label {
+  color: #717171;
+}
+
+header {
+  background-color: #303f9f;
+  color: #fff;
+  padding: 0 15px;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  header, footer {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+}

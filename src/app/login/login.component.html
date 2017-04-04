@@ -1,0 +1,15 @@
+<section class="login">
+  <h2>Sign In</h2>
+  <form>
+    <label for="username">
+      Username
+    </label>
+    <input autofocus="autofocus" class="form-control" id="username" name="login" tabindex="1" type="text" [(ngModel)]="user.name">
+    <label for="password">
+      Password
+    </label>
+    <input class="form-control" id="password" name="password" tabindex="2" type="password" [(ngModel)]="user.password">
+
+    <button (click)="signIn()">Sign In</button>
+  </form>
+</section>

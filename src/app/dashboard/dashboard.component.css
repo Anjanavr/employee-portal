@@ -1,0 +1,19 @@
+app-dashboard {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.content-wrap {
+  background-color: #fff;
+  display: flex;
+  height: 100%;
+}
+
+select {
+  background-color: #00BCD4;
+  border: 1px solid #00BCD4;
+  margin: 10px;
+  color: #fff;
+  outline: 0;
+}
