@@ -7,7 +7,7 @@
     </label>
     <input autofocus="autofocus" class="form-control" id="email" type="email" [(ngModel)]="user.email" required name="email" #userEmail="ngModel">
     <div *ngIf="userEmail.errors?.required && userEmail.touched" class="error">
-      Name is required
+      Email is required
     </div>
     <label for="password">
       Password 

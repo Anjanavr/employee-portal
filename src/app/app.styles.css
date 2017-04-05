@@ -17,6 +17,7 @@ li {
 
 nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
 }
@@ -70,7 +71,7 @@ footer {
 
 .error {
   color: #ff5f6d;
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 7px;
 }
 
