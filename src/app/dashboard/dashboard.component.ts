@@ -9,7 +9,6 @@ export class DashboardComponent {
   selectedValue: string;
 
   viewChanged(selectedView: string) {
-    console.log(selectedView, "dashboard");
     this.selectedValue = selectedView;
   }
 };

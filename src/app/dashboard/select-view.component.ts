@@ -13,7 +13,6 @@ export class SelectViewComponent {
     'Projects'
   ];
   changeView(selectedValue: string) {
-    console.log(selectedValue);
     this.viewChanged.emit(selectedValue);
   }
 }

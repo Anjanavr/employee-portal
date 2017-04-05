@@ -13,6 +13,7 @@ import { FooterComponent } from '../footer/footer.component';
 import { DashboardComponent } from '../dashboard/dashboard.component';
 import { SelectViewComponent } from '../dashboard/select-view.component';
 import { MenuComponent } from '../menu/menu.component';
+import { TableComponent } from '../table-component/table-componnent.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
@@ -33,7 +34,8 @@ const routes: Routes = [
     FooterComponent,
     DashboardComponent,
     SelectViewComponent,
-    MenuComponent
+    MenuComponent,
+    TableComponent
   ],
   exports: [
     LoginComponent,
@@ -41,7 +43,8 @@ const routes: Routes = [
     FooterComponent,
     DashboardComponent,
     SelectViewComponent,
-    MenuComponent
+    MenuComponent,
+    TableComponent
   ],
   providers: [
     LoginService
