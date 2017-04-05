@@ -1,0 +1,11 @@
+<header>
+  <nav>
+    <h1>
+      {{ title }}
+    </h1>
+    <ul>
+      <li> Hi {{ loggedInUser.email }} </li>
+      <li class="navigation" (click)="signOut()"> Sign out </li>
+    </ul>
+  </nav>  
+</header>

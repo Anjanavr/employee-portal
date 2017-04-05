@@ -1,0 +1,5 @@
+<select [(ngModel)]="selectedView">
+  <option *ngFor="let menuItem of filterDetails" [ngValue]="menuItem">
+    <input type="checkbox"> {{ menuItem }}
+  </option>
+</select>

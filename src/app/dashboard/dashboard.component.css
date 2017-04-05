@@ -1,0 +1,44 @@
+app-dashboard {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.content-wrap {
+  background-color: #fff;
+  display: flex;
+  height: 100%;
+  padding-right: 15px;
+}
+
+app-menu {
+  background-color: #c9f5fe;
+  color: #212121;
+  width: 127px;
+}
+
+@media (min-width: 768px) {
+  .menu-wrap {
+    padding-left: 25px;
+    padding-right: 15px;
+  }
+  .content-wrap {
+    padding-right: 25px;
+  }
+}
+
+select {
+  background-color: #00BCD4;
+  border: 1px solid #00BCD4;
+  margin: 10px 0;
+  color: #fff;
+  outline: 0;
+}
+
+select-view {
+  align-items: flex-start;
+  display: flex;
+  height: auto;
+  justify-content: flex-end;
+  width: 100%;
+}
