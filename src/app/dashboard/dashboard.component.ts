@@ -5,4 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent { };
+export class DashboardComponent {
+  selectedValue: string;
+
+  viewChanged(selectedView: string) {
+    console.log(selectedView, "dashboard");
+    this.selectedValue = selectedView;
+  }
+};

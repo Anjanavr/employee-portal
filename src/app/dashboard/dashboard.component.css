@@ -12,7 +12,7 @@ app-dashboard {
 }
 
 app-menu {
-  background-color: #c9f5fe;
+  background-color: #d2d4d4;
   color: #212121;
   width: 127px;
 }
@@ -28,10 +28,10 @@ app-menu {
 }
 
 select {
-  background-color: #00BCD4;
-  border: 1px solid #00BCD4;
+  background-color: #d2d4d4;
+  border: 1px solid #d2d4d4;
   margin: 10px 0;
-  color: #fff;
+  color: #212121;
   outline: 0;
 }
 
