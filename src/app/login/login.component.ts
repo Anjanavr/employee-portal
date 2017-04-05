@@ -13,9 +13,12 @@ export class LoginComponent {
 
   constructor(private loginService: LoginService) { }
 
-  user = new User('', '');
+  user: User = {
+    email: '',
+    password: ''
+  };
 
-  signIn(): void {
+  signIn(form): void {
     this.loginService.logIn(this.user);
   } 
 };

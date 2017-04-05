@@ -13,7 +13,7 @@ export class HeaderComponent {
   constructor (private loginService: LoginService) {}
 
   isLoggedIn = this.loginService.isLoggedIn;
-  loggedInUser = this.loginService.loggedInUser ? this.loginService.loggedInUser : null;
+  loggedInUser = this.loginService.loggedInUser ? this.loginService.loggedInUser : {email: 'test', password: '123'};
 
   signOut() {
     this.loginService.logOut();
