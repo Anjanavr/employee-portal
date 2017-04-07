@@ -1,6 +1,6 @@
 
 <select [(ngModel)]="selectedView" (ngModelChange)="changeView($event)">
   <option *ngFor="let menuItem of filterDetails" [ngValue]="menuItem">
-    <input type="checkbox"> {{ menuItem }}
+    {{ menuItem }}
   </option>
 </select>

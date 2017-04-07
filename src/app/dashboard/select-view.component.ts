@@ -5,14 +5,22 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   templateUrl: './select-view.component.html'
 })
 export class SelectViewComponent {
-  @Input() selectedView = 'Employees';
+  @Input() selectedView;
   @Output() viewChanged = new EventEmitter<string> ();
 
+  constructor() {
+    this.selectedView = '';
+  }
+
   filterDetails = [
-    'Employees',
-    'Projects'
+    'employees',
+    'projects'
   ];
   changeView(selectedValue: string) {
     this.viewChanged.emit(selectedValue);
+  }
+  ngOnInit() {
+    this.selectedView = 'employees';
+    this.changeView('employees');
   }
 }
