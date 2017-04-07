@@ -1,0 +1,13 @@
+table {
+  border: 1px solid #d2d4d4;
+  border-collapse: collapse;
+  margin: 15px;
+}
+tr {
+  border-bottom: 1px solid #d2d4d4;
+}
+td, th {
+  border-right: 1px solid #d2d4d4;
+  padding: 8px;
+  text-transform: capitalize;
+}

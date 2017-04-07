@@ -2,7 +2,7 @@
 
 <div class="content-wrap">
   <app-menu></app-menu>
-  {{selectedValue}}
+  <table-component [isDataAvailable]="fetchCompleted" [config]="details"></table-component> 
   <select-view (viewChanged)="viewChanged($event)"></select-view>
 </div>
 

@@ -12,7 +12,7 @@ app-dashboard {
 }
 
 app-menu {
-  background-color: #d2d4d4;
+  background-color: #e4eaea;
   color: #212121;
   width: 127px;
 }
@@ -30,7 +30,7 @@ app-menu {
 select {
   background-color: #d2d4d4;
   border: 1px solid #d2d4d4;
-  margin: 10px 0;
+  margin: 15px 0;
   color: #212121;
   outline: 0;
 }
@@ -40,5 +40,9 @@ select-view {
   display: flex;
   height: auto;
   justify-content: flex-end;
-  width: 100%;
+}
+
+table-component {
+  display: flex;
+  flex-grow: 2;
 }

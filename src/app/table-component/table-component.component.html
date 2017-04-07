@@ -1,0 +1,16 @@
+<table *ngIf="isDataAvailable">
+  <thead>
+    <tr>
+      <th *ngFor="let header of config.headers">
+        {{ header }}
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let details of config.data">
+      <td *ngFor="let identifier of config.headers">
+        {{ details[identifier] }}
+      </td>
+    </tr>
+  </tbody>
+</table>

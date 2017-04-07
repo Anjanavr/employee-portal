@@ -1,0 +1,23 @@
+{
+  "projects": [{
+    "name": "Span",
+    "clientName": "Heidenreich-Greenholt",
+    "projectManager": "Louis Nguyen"
+  }, {
+    "name": "Gembucket",
+    "clientName": "Frami and Sons",
+    "projectManager": "Mark White"
+  }, {
+    "name": "Regrant",
+    "clientName": "Sipes-Kunde",
+    "projectManager": "Ann Lane"
+  }, {
+    "name": "Voltsillam",
+    "clientName": "Bradtke Inc",
+    "projectManager": "Craig Rodriguez"
+  }, {
+    "name": "Solarbreeze",
+    "clientName": "Barrows, Kautzer and Ankunding",
+    "projectManager": "Lori Gilbert"
+  }]
+}
