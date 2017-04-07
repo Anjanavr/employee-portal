@@ -11,7 +11,7 @@ import { LoginComponent } from '../login/login.component';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { DashboardComponent } from '../dashboard/dashboard.component';
-import { SelectViewComponent } from '../dashboard/select-view.component';
+import { SelectViewComponent } from '../select-view/select-view.component';
 import { MenuComponent } from '../menu/menu.component';
 import { TableComponent } from '../table-component/table-componnent.component';
 
